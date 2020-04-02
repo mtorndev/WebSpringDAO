@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Welcome to Spring Web project</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-25">
+                    <label id="fname">Surname: </label>
+                </div>
+                <div class="col-75">
+                    <input type="text" id="par_001" name="surname"> <!-- placeholder="Your name.." -->
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                    <input id="btn_001" type="submit" value="Lancia Ajax">
+                    <!--<button id="btn_001">Lancia Ajax</button>--> 
+                     </div>
+                </div>
+                <br>
+                <div class="col-25">
+                    <label id="fris">Result: </label>
+                </div>
+                <div class="row">
+                    <div class="col-75">
+                        <div id="result"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="indexAjax.js"></script>
+    </body>
+</html>

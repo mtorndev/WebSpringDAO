@@ -1,0 +1,8 @@
+usare Netbeans  versione corretta (deve essere possibile vedere il diagramma delle entità)
+import librerie DBT e da requirements
+aprire connessione DB
+eliminare tabelle 
+restart Apache
+il binding su js non richiede le ()
+chiave richiesta in js deve corrispondere con chiave letta nella callback
+per Ajax nella pagina html non usare l'abbinata submit e form (usare button oppure togliere form)
