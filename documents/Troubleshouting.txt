@@ -1,8 +1,8 @@
-usare Netbeans  versione corretta (deve essere possibile vedere il diagramma delle entità)
-import librerie DBT e da requirements
-aprire connessione DB
-eliminare tabelle 
-restart Apache
-il binding su js non richiede le ()
-chiave richiesta in js deve corrispondere con chiave letta nella callback
-per Ajax nella pagina html non usare l'abbinata submit e form (usare button oppure togliere form)
+usare Netbeans  versione corretta (compatibile con versione Jeddict - deve essere possibile vedere il diagramma delle entità)
+import librerie DBT da requirements
+ricordarsi aprire connessione DB prima di avviare l'applicazione
+è possibile sia necessario eliminare tabelle in caso di variazioni delle strutture o utilizzo condiviso del DB
+è possibile sia necessario riavviare il servizio Apache. In caso di mancata esecuzione, verificare il log del servizio Apache portandosi alla fine del testo e risalendo fino ad arrivare al messaggio di errore significativo
+ricordarsi che il binding (lato client) su js non richiede le ()
+le chiavi del json passato e poi restituito a javascript deve corrispondere con chiave letta e inviara dalla callback nel controller
+utilizzando Ajax, nella pagina html non usare l'abbinata submit e form (usare button oppure togliere form)
